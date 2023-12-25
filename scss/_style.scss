@@ -132,6 +132,9 @@ a {
         transition: all ease 1s;
       }
     }
+    span {
+      transition: all ease 1s;
+    }
     &::after {
       position: absolute;
       transition: all ease 0.6s;
