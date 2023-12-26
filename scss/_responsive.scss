@@ -131,6 +131,16 @@
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (max-width: 991.98px) {
+  .BlogItem .leftWrapp .item .itemText {
+    width: 100%;
+    max-width: 100%;
+  }
+  .BlogItem {
+    padding-top: 87px;
+    .row {
+      --bs-gutter-x: 24px !important;
+    }
+  }
   .Experience .itemLeft .box {
     top: 0;
     position: static;
@@ -340,6 +350,41 @@
   }
   .ConsultingSuccess .item {
     padding: 30px 15px;
+  }
+
+  .FrequentlyAsked h3,
+  .FrequentlyAsked .h3 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 30px;
+  }
+  .FrequentlyAsked .accordion .accordion-item {
+    padding: 30px 20px;
+    border: 0;
+    border-radius: 8px;
+    background: rgba(244, 244, 244, 0.5);
+    margin-bottom: 20px;
+  }
+  .FrequentlyAsked
+    .accordion
+    .accordion-item
+    .accordion-header
+    .accordion-button {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .FrequentlyAsked .accordion .accordion-item .accordion-header {
+    --bs-accordion-btn-icon-width: 25px;
+  }
+  .FrequentlyAsked .accordion .accordion-collapse .accordion-body p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .FrequentlyAsked {
+    padding: 80px 0;
+  }
+  .BlogItem .leftWrapp .item ul li span {
+    font-size: 12px;
   }
 }
 
