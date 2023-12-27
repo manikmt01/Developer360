@@ -185,6 +185,47 @@
   .OurValues .d-flex .item {
     width: 45%;
   }
+
+  .blog .BlogDetails .blogTop h1,
+  .blog .BlogDetails .blogTop .h1 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+  .blog .BlogDetails .blogTop .blogTopText p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .blog h2,
+  .blog .h2 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 12px;
+  }
+  .blog p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  .blog h4,
+  .blog .h4 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 12px;
+  }
+  .blog .BlogTextStyle .item ul li {
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 25px;
+    margin-bottom: 8px;
+  }
+  .blog {
+    padding-bottom: 70px;
+    padding-top: 80px;
+  }
+  .blog .BlogDetails .blogTop ul li span {
+    font-size: 12px;
+  }
 }
 
 /*// Small devices (landscape phones, 576px and up)*/

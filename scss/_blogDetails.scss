@@ -1,0 +1,133 @@
+.blog {
+  padding-bottom: 86px;
+  padding-top: 100px;
+  h2 {
+    color: #171924;
+    font-family: Proxima Nova;
+    font-size: 43.393px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56.411px; /* 130% */
+    margin-bottom: 12px;
+  }
+  h4 {
+    color: #171924;
+    font-family: Proxima Nova;
+    font-size: 19.093px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31.243px; /* 163.636% */
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  p {
+    color: #171924;
+    font-family: Proxima Nova;
+    font-size: 19.093px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.904px; /* 140.909% */
+    margin-bottom: 20px;
+  }
+
+  .BlogDetails {
+    .blogTop {
+      h1 {
+        color: #202430;
+        font-family: Proxima Nova;
+        font-size: 55.543px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 56.411px; /* 101.562% */
+        margin-bottom: 26px;
+      }
+      ul {
+        margin-bottom: 20px;
+        li {
+          margin-bottom: 0;
+          &::after {
+            display: none;
+          }
+          &:first-child {
+            padding-left: 0;
+          }
+          &:last-child {
+            border-right: 0;
+            padding-right: 0;
+          }
+          padding-left: 13px;
+          padding-right: 13px;
+          border-right: 1px solid #989898;
+          gap: 6.5px;
+          img {
+            width: 16.5px;
+            align-self: center;
+          }
+          span {
+            color: #9c9c9c;
+            font-family: Proxima Nova;
+            font-size: 13.886px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            align-self: center;
+          }
+        }
+      }
+      .blogTopText {
+        margin-bottom: 34px;
+        img {
+          margin-bottom: 27px;
+        }
+        p {
+          color: #171924;
+          font-family: Proxima Nova;
+          font-size: 19.093px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 26.036px; /* 136.364% */
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  .BlogTextStyle {
+    .item {
+      margin-bottom: 35px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      p {
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+      ul {
+        li {
+          color: #171924;
+          font-family: Proxima Nova;
+          font-size: 19.093px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 26.036px; /* 136.364% */
+          position: relative;
+          padding-left: 25px;
+          margin-bottom: 10px;
+          &::after {
+            position: absolute;
+            content: '';
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            background-image: url(../img/code.svg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 12px;
+            height: 12px;
+          }
+        }
+      }
+    }
+  }
+}
