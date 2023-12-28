@@ -11,7 +11,10 @@
 }
 
 /*// Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) and (max-width: 1439.98px) {
+@media (max-width: 1439.98px) {
+  .container {
+    max-width: 100%;
+  }
 }
 
 /*// Large devices (desktops, 992px and up)*/
@@ -126,6 +129,18 @@
   .ConsultingSuccess .item {
     padding: 40px 20px;
     height: 100%;
+  }
+  .gameWrapp {
+    text-align: center;
+    .leftImg {
+      width: 100%;
+    }
+    .rightText {
+      width: 100%;
+    }
+  }
+  .Support .itemLeft {
+    width: 100%;
   }
 }
 
@@ -426,6 +441,135 @@
   }
   .BlogItem .leftWrapp .item ul li span {
     font-size: 12px;
+  }
+
+  .gameWrapp .itemRight {
+    padding-left: 0;
+  }
+
+  .gameWrapp .itemRight h1,
+  .gameWrapp .itemRight .h1 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+  .gameWrapp .itemRight h2,
+  .gameWrapp .itemRight .h2 {
+    font-size: 28px;
+    line-height: 40.072px;
+  }
+  .gameWrapp .itemRight p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .features .title h2,
+  .features .title .h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .features .item h4,
+  .features .item .h4 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .features .item img {
+    margin-bottom: 0;
+  }
+  .WhatWill h2,
+  .WhatWill .h2,
+  .KeyFeatures .titleText h2,
+  .KeyFeatures .titleText .h2 {
+    font-size: 32px;
+    line-height: 45px;
+    margin-bottom: 30px;
+  }
+  .WhatWill .item {
+    min-height: 180px;
+  }
+  .WhatWill .item h4,
+  .WhatWill .item .h4 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .whatMore .itemLeft p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .KeyFeatures .KeyItem .itemLeft h2,
+  .KeyFeatures .KeyItem .itemLeft .h2 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  .KeyFeatures .KeyItem .itemMid h4,
+  .KeyFeatures .KeyItem .itemMid .h4 {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .KeyFeatures .KeyItem .itemMid p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .whyDeveloper .titleText h2,
+  .whyDeveloper .titleText .h2,
+  .Launch .itemLeft h2,
+  .Launch .itemLeft .h2,
+  .onlineOffline .itemRight .itemTop h2,
+  .onlineOffline .itemRight .itemTop .h2,
+  .Support h2,
+  .Support .h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .whyDeveloper .whyChooseInner .ItemLeftWrapp .item p,
+  .Launch .itemLeft p,
+  .onlineOffline .itemRight .itemTop p,
+  .onlineOffline .itemRight .item p,
+  .Support .itemLeft .item p {
+    font-size: 16px;
+  }
+  .Support .itemLeft .item h4,
+  .Support .itemLeft .item .h4 {
+    font-size: 18px;
+    line-height: 40px;
+    margin-bottom: 8px;
+  }
+  .whyDeveloper .whyChooseInner .ItemLeftWrapp .item .media .media-body h4,
+  .whyDeveloper .whyChooseInner .ItemLeftWrapp .item .media .media-body .h4 {
+    font-size: 18px;
+    line-height: 56px;
+  }
+  .onlineOffline .itemRight .item h4,
+  .onlineOffline .itemRight .item .h4 {
+    font-size: 18px;
+    line-height: 40px;
+  }
+  .FrequentlyAsked.FrequentlyAsked2 h3,
+  .FrequentlyAsked.FrequentlyAsked2 .h3 {
+    font-size: 32.393px;
+    line-height: 40.072px;
+  }
+  .FrequentlyAsked.FrequentlyAsked2
+    .accordion
+    .accordion-item
+    .accordion-header
+    .accordion-button {
+    font-size: 18px;
+  }
+  .FrequentlyAsked.FrequentlyAsked2
+    .accordion
+    .accordion-collapse
+    .accordion-body
+    p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .fixedCall {
+    right: 10px;
+    bottom: 10px;
+    width: 30px;
+  }
+  .fixedCall ul li {
+    margin-bottom: 8px;
   }
 }
 
