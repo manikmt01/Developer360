@@ -1110,11 +1110,29 @@ footer {
   padding-bottom: 80px;
   .commonItem {
     margin-bottom: 50px !important;
+    h2 {
+      margin-bottom: 0;
+    }
   }
   .d-flex {
     .item {
       width: 355px;
       max-width: 100%;
+      position: relative;
+      &:last-child {
+        &::after {
+          display: none;
+        }
+      }
+      &::after {
+        position: absolute;
+        content: '';
+        right: -15%;
+        top: 0;
+        height: 100%;
+        width: 1px;
+        background-color: rgba(255, 255, 255, 0.8);
+      }
       h4 {
         color: #fff;
         font-family: Proxima Nova;
@@ -1131,6 +1149,7 @@ footer {
         font-style: normal;
         font-weight: 400;
         line-height: 30.375px; /* 159.091% */
+        margin-bottom: 0;
       }
     }
   }
@@ -1146,6 +1165,33 @@ footer {
     border-radius: 6.474px;
     background: #fff;
     padding: 40px 35px;
+    position: relative;
+    z-index: 1;
+    &::after {
+      position: absolute;
+      content: '';
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 0;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 0px;
+      height: 0px;
+      transition: all ease 0.6s;
+      border-radius: 6.94px;
+      background-color: aqua;
+      opacity: 0;
+      z-index: -1;
+    }
+    &:hover::after {
+      opacity: 1;
+      width: 100%;
+      height: 100%;
+    }
+
     h2 {
       color: #000;
       font-family: Proxima Nova;
@@ -1178,3 +1224,138 @@ footer {
   }
 }
 // OurJourney end
+// Modal2 start
+.Modal2 {
+  --bs-modal-width: 1126.488px;
+  .modal-dialog {
+    padding: 0 20px;
+    border: 0;
+    .modal-content {
+      border-radius: 6.943px;
+      border: 0.868px solid rgba(255, 255, 255, 0.2);
+      background: rgb(32 36 48 / 80%);
+      box-shadow: 0px 0px 12.15px 8.679px rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(5px);
+      color: #fff;
+      padding-top: 75px;
+      padding-bottom: 65px;
+      padding-right: 65px;
+      padding-left: 38px;
+      .modal-header {
+        border: 0;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        padding: 0;
+        .btn-close {
+          --bs-btn-close-bg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23fff' class='bi bi-x-lg' viewBox='0 0 16 16'%3E%3Cpath d='M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z'/%3E%3C/svg%3E");
+          background-size: 22px;
+          opacity: 1;
+        }
+      }
+    }
+    .modal-body {
+      padding: 0;
+      .itemLeft {
+        img {
+        }
+      }
+      .itemRight {
+        padding-left: 30px;
+        h2 {
+          color: #0ff;
+          font-family: Proxima Nova;
+          font-size: 34.715px;
+          font-style: normal;
+          font-weight: 800;
+          line-height: 39.054px; /* 112.5% */
+          text-transform: uppercase;
+        }
+        p {
+          color: #fff;
+          font-family: Proxima Nova;
+          font-size: 13.886px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 23.432px;
+          margin-bottom: 40px;
+        }
+        .inputItem {
+          margin-bottom: 35px;
+          label {
+            color: #fff;
+            font-family: Proxima Nova;
+            font-size: 15.622px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 17.01px; /* 108.889% */
+            margin-bottom: 0;
+          }
+          input::-webkit-outer-spin-button,
+          input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+          }
+
+          /* Firefox */
+          input[type='number'] {
+            -moz-appearance: textfield;
+          }
+          input {
+            padding: 8.5px 0;
+            color: rgba(255, 255, 255, 0.7);
+            font-family: Proxima Nova;
+            font-size: 15.622px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: capitalize;
+            border: 0;
+            border-radius: 4.339px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            background-color: transparent;
+            &::placeholder {
+              color: rgba(255, 255, 255, 0.7);
+            }
+            &:hover {
+              box-shadow: none;
+            }
+            &:focus {
+              box-shadow: none;
+            }
+          }
+        }
+        button {
+          border-radius: 6.943px;
+          border: 0.868px solid aqua;
+          width: 276.832px;
+          max-width: 100%;
+          display: flex;
+          gap: 9.5px;
+          color: aqua;
+          text-align: center;
+          font-family: Proxima Nova;
+          font-size: 17.356px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 48.408px;
+          text-transform: uppercase;
+          background-color: rgba(0, 0, 0, 0);
+          justify-content: center;
+          align-items: center;
+          padding: 10px 20px;
+          &:hover {
+            background-color: #000;
+          }
+          span {
+            align-self: center;
+          }
+          svg {
+            align-self: center;
+          }
+        }
+      }
+    }
+  }
+}
+// Modal2 end
