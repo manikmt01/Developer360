@@ -589,16 +589,38 @@
     padding-left: 25px;
   }
   .Modal2 .modal-dialog .modal-body .itemRight button {
-    width: 240px;
+    width: 190px;
     gap: 6px;
-    font-size: 16px;
-    line-height: 40px;
+    font-size: 12px;
+    line-height: 35px;
     padding: 6px 15px;
   }
   .Modal2 .modal-dialog .modal-body .itemRight h2,
   .Modal2 .modal-dialog .modal-body .itemRight .h2 {
-    font-size: 26px;
+    font-size: 24px;
     line-height: 34px;
+  }
+  .Modal2 .modal-dialog .modal-body .itemRight {
+    padding-left: 0;
+  }
+  .Modal2 .modal-dialog .modal-body .itemRight p {
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 30px;
+  }
+  .Modal2 .modal-dialog .modal-body .itemRight .inputItem {
+    margin-bottom: 20px;
+  }
+  .Modal2 .modal-dialog .modal-body .itemRight .inputItem input {
+    font-size: 12px;
+  }
+  .Modal2 .modal-dialog .modal-body .itemRight .inputItem label {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .Modal2 .modal-dialog .modal-body .itemRight button svg {
+    align-self: center;
+    width: 16px;
   }
 }
 

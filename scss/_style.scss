@@ -570,6 +570,7 @@ a {
     overflow: hidden;
     position: relative;
     transition: all ease 0.6s;
+    border: 1px solid #00e2e1;
     img {
       margin-bottom: 20px;
       transition: all ease 0.6s;
@@ -1228,7 +1229,7 @@ footer {
 .Modal2 {
   --bs-modal-width: 1126.488px;
   .modal-dialog {
-    padding: 0 20px;
+    padding: 0 0px;
     border: 0;
     .modal-content {
       border-radius: 6.943px;

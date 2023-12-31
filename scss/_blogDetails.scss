@@ -163,6 +163,15 @@
   table > :not(caption) > * > * {
     border-width: 0 var(--bs-border-width);
   }
+  tr {
+    text-align: center;
+  }
+  td {
+    padding: 6px;
+  }
+  img {
+    width: 100%;
+  }
 
   .BlogDetails {
     .blogTop {
